@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+ display: flex;
+ justify-content: center;
+
+}
+.card{
+    max-width: 362px;
+    min-height: 450px;
+    margin-inline: 1rem;
+    margin-top: 95px;
+    border-radius: 12px;
+   text-align: center;
+   box-shadow: 0px 2px 4px 0px hsl(223, 47%, 23%);
+}
+  .card h1{
+    font-size: 25px;
+  }
+
+.card p{
+    padding-top: 0;
+    color: #A7A7B0;
+}
+.card h2{
+    font-size: 25px;
+}
+.card img{
+    width: 100%;
+    border-top-left-radius:12px ;
+    border-top-right-radius:12px ;
+
+}
+
+.playerinfo h3,p{
+    margin: 0;
+}
+.playerinfo h3{
+    font-size: 15px;
+}
+.playerinfo{
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    min-height: 80px;
+    justify-content: space-evenly;
+    margin-inline: 1.5rem;
+}
+.playerinfo a{
+    font-weight:bold;
+}
+.playerinfo img{
+    max-width: 50px;
+    margin-left: 10px;
+}
+.card button{
+    max-width: 318px;
+    width: calc(100% - 32px);
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    font-family: inherit;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    margin-block: 2rem;
+}
+
+.card .cancel{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    margin-bottom: 2em;
+    display: block;
+}
